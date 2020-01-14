@@ -1,0 +1,7 @@
+
+#cout no. of character in a word
+w=input("Enter the word")
+c=input("Enter the character")
+
+print(w.count(c))
+    
