@@ -1,0 +1,15 @@
+#multiple string print the maximum length string
+t=int(input("Enter the no of input string"))
+i=[]
+while t!=0:
+    a=input("Enter second word")
+    i.append(a)
+    t=t-1
+print(i)
+max=len(i[0])
+for x in range(len(i)):
+    f=len(i[x])
+    if max<f:
+        max=f
+        g=x
+print(i[g])
